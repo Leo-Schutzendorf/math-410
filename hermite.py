@@ -26,8 +26,8 @@ def hermite(xs, ys, dfs):
     # Return exactly 2n coefficients
     return [float(Q[var][var]) for var in range(size)]
 
-xs = [-1, -0.5, 0, 0.5]
-ys = [0.86199480, 0.95802009, 1.0986123, 1.2943767]
-dfs = [0.1553624, 0.23269654, 1/3, 0.45186776]
+xs = [1,2,3]
+ys = [1.105170918 , 1.491824698, 2.459603111]
+dfs = [0.2210341836, 0.5967298792 , 1.475761867]
 
 print(hermite(xs, ys, dfs))
