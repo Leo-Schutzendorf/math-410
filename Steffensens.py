@@ -1,5 +1,7 @@
 import numpy as np
+import matplotlib.pyplot as plt
 import math
+import scipy
 
 def steffensen_root_finder(function, x0, tol, N=100):
     """
